@@ -126,18 +126,22 @@ nav>ul>li>a:hover {
 .new {
     position: absolute;
     z-index: 3;
-    color: #FFFFFF;
     padding: 8px 20px;
     font-size: 1.2rem;
     font-weight: 600;
     background-color: rgb(8, 182, 34);
     border-radius: 20px;
     border: none;
-    color: rgb(248, 245, 245);
+    color: rgb(4, 4, 4);
     top: 120px;
     left: 56%;
+    transition: 0.5s;
 }
-
+.new:hover{
+  background-color: #01ccff;
+  color: #000602;
+  transition: 0.5s;
+}
 .cir-img {
     display: flex;
     justify-content: center;
@@ -179,6 +183,7 @@ nav>ul>li>a:hover {
     font-size: 1rem;
     color: #FFFFFF;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .main-btn2 {
@@ -188,6 +193,10 @@ nav>ul>li>a:hover {
     border-radius: 30px;
     font-size: 1rem;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.main-btn2:hover{
+    background-color: #15284ebb;
 }
 
 .icon-main {
@@ -198,6 +207,7 @@ nav>ul>li>a:hover {
     margin-right: 5px;
     color: #07db40;
 }
+
 
 
 /* main About the Podcast section cose start */
@@ -482,6 +492,7 @@ iframe {
 .container-footer {
     text-align: center;
     padding: 90px 0;
+    padding-bottom: 30px;
 
 }
 
@@ -502,11 +513,16 @@ iframe {
     color: #959393;
     padding-bottom: 30px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .foot-icon {
     color: #FFFFFF;
     margin-right: 5px;
+}
+.foot-icon:hover{
+   color: #07db40;
+   transition: 0.5s;
 }
 
 /* media screen phone max 576 all phone responsib*/
@@ -551,7 +567,6 @@ iframe {
     }
 
     .new {
-        color: #FFFFFF;
         position: absolute;
         padding: 8px 40px;
         font-size: 1rem;
@@ -559,7 +574,7 @@ iframe {
         background-color: rgb(8, 182, 34);
         border-radius: 20px;
         border: none;
-        color: rgb(238, 233, 233);
+        color: rgb(0, 0, 0);
         top: 130px;
         right: 580px;
         display: flex;
@@ -774,7 +789,6 @@ iframe {
 /* background section code start */
 
     .new {
-        color: #FFFFFF;
         position: absolute;
         padding: 8px 40px;
         font-size: 1rem;
@@ -782,7 +796,7 @@ iframe {
         background-color: rgb(8, 182, 34);
         border-radius: 20px;
         border: none;
-        color: rgb(238, 233, 233);
+        color: rgb(0, 0, 0);
         top: 130px;
         right: 580px;
         display: flex;
