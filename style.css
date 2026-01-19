@@ -262,6 +262,7 @@ nav>ul>li>a:hover {
 .main-container-back-ground {
     background-color: #230E3D;
 }
+
 .container-card-socal-icon {
     max-width: 1200px;
     margin: 0 auto;
@@ -288,15 +289,17 @@ nav>ul>li>a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
+
 }
 
 .cosal-first {
     grid-row: span 2;
 }
+
 .hello {
     padding-bottom: 160px;
 }
+
 .cosal-icon2 {
     grid-column: span 2;
 }
@@ -402,14 +405,7 @@ iframe {
 }
 
 
-
-
-
-
-
-
-
-
+/* Alex Kumar section code start */
 
 .Alex-Kumar-container {
     max-width: 1200px;
@@ -450,6 +446,7 @@ iframe {
 .alex-icon {
     display: flex;
     gap: 10px;
+    cursor: pointer;
 }
 
 .online-icon {
@@ -510,7 +507,7 @@ iframe {
     margin-right: 5px;
 }
 
-/* media screen phone*/
+/* media screen phone max 576 all phone responsib*/
 @media screen and (max-width:576px) {
     nav {
         display: none;
@@ -653,17 +650,18 @@ iframe {
         font-size: 14px;
     }
 
-/* <!-- card section code start 333333--> */
+    /* <!-- card section code start 333333--> */
 
     .main-socal-container {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         gap: 20px;
     }
-.socal-name {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
+
+    .socal-name {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
 
     .cosal-first,
     .cosal-icon2,
@@ -682,7 +680,7 @@ iframe {
         margin: 0 auto;
     }
 
- /* <!-- Featured Episodes  code start --> */
+    /* <!-- Featured Episodes  code start --> */
 
     .Featured-card-container {
         flex-direction: column;
@@ -697,30 +695,31 @@ iframe {
         width: 100%;
     }
 
-.Featured-main-name{
-    font-size: 1.8rem;
-    margin-bottom: 30px;
-}
+    .Featured-main-name {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
 
 
-
-
-
-
-
-
-
-
-
+    /*Alex Kumar section code start  */
     .Alex-main-container {
         margin: 0 auto;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         text-align: center;
+    }
+
+    .Alex-Kumar {
+        font-size: 1.9rem;
     }
 
     .alex-icon {
         justify-content: center;
+    }
+
+    .alex-name {
+        font-size: 1.9rem;
+        margin-bottom: 20px;
     }
 
     .kamrul-flex {
@@ -731,13 +730,25 @@ iframe {
     /* footer section code start */
 
     .footer-icon {
-
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        gap: 10px;
+        text-align: center;
     }
+
+    .main-footer {
+        font-size: 1.9rem;
+    }
+
+    .footer-icon-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+    }
+
 }
 
-/* media screen tad */
+/* media screen tad computer laptop max 992*/
 
 @media screen and (min-width:576px) and (max-width:992px) {
     nav {
@@ -758,7 +769,7 @@ iframe {
     }
 
 
-
+/* background section code start */
 
     .new {
         color: #FFFFFF;
@@ -781,42 +792,19 @@ iframe {
         top: 110%;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* <!-- main About the Podcast section cose start --> */
     .Podcast-item-menu-ber {
         padding: 0 20px;
     }
 
-
-
-
-
-
-
+/* <!-- card section code start 333333--> */
     .main-socal-container {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         gap: 20px;
     }
 
-
+/* <!-- card section code start 333333--> */
     .cosal-first,
     .cosal-icon2,
     .cosal-icon3,
@@ -839,40 +827,12 @@ iframe {
         margin: 0 auto;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ /* <!-- Featured Episodes  code start --> */
 
     .Featured-card-container {
         flex-direction: column;
         align-items: center;
     }
-
-    /* .Featured-card{
-        width: 100%;
-    } */
 
     .container-Featured {
         max-width: 60%;
@@ -883,7 +843,7 @@ iframe {
     }
 
 
-
+ /* <!-- Alex Kumar section code start --> */
     .Alex-main-container {
         margin: 0 auto;
         flex-direction: column;
@@ -894,6 +854,7 @@ iframe {
     .alex-icon {
         justify-content: center;
     }
-
+   
+    /* <!-- footer section code start --> */
 
 }
