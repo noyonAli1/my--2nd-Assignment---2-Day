@@ -224,7 +224,7 @@ nav>ul>li>a:hover {
 }
 
 
-/* card section code start  */
+/* card section code start 222222 */
 
 .card-container {
     max-width: 1200px;
@@ -239,7 +239,6 @@ nav>ul>li>a:hover {
     gap: 60px;
     justify-content: center;
     justify-content: space-around;
-    /* margin: 0 auto; */
 
 }
 
@@ -259,7 +258,7 @@ nav>ul>li>a:hover {
     font-weight: 400;
 }
 
-/* <!-- card section code start --> */
+/* <!-- card section code start 333333--> */
 
 .container-card-socal-icon {
     max-width: 1200px;
@@ -355,7 +354,6 @@ nav>ul>li>a:hover {
 .container-Featured {
     max-width: 1200px;
     margin: 0 auto;
-    /* border:  2px solid red; */
 }
 
 .Featured-main-name {
@@ -621,30 +619,24 @@ iframe {
         padding: 50px 0px;
         max-width: 1200px;
     }
+
     .Podcast-item-menu-ber {
         max-width: 80%;
         margin: 0 auto;
         text-align: justify;
         margin-bottom: 15px;
     }
-    .Podcast-item-menu-ber{
+
+    .Podcast-item-menu-ber {
         margin-bottom: 30px;
     }
 
 
-
-
-
-
-
-
-
-
+    /* <!-- card section code start 22222 --> */
 
     .main-card {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
-
     }
 
     .card-container {
@@ -652,15 +644,47 @@ iframe {
     }
 
     .card-item {
-        padding-top: 40px;
+        padding-top: 10px;
     }
 
     .main-card {
-        gap: 10px;
+        gap: 5px;
+    }
+
+    .card-container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .card-p {
+        font-size: 14px;
     }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- card section code start 333333--> */
 
     .main-socal-container {
         grid-template-columns: 1fr;
