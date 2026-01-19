@@ -495,11 +495,13 @@ iframe {
     grid-template-columns: repeat(4, 1fr);
     max-width: 600px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 30 0px;
 }
 
 .footer-icon-menu {
     color: #959393;
+    padding-bottom: 30px;
+    cursor: pointer;
 }
 
 .foot-icon {
