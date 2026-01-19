@@ -1,0 +1,887 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-width {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.main-container {
+    background-color: #1A0B2E;
+    /* border: 1px solid red; */
+}
+
+.section-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid greenyellow; */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navigation {
+    color: #FFFFFF;
+    font-size: 2.1rem;
+}
+
+.nav-wave {
+    background: linear-gradient(to bottom, #DB07C8, #DB07C8, rgba(202, 223, 9, 0.481));
+    color: transparent;
+    background-clip: text;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 32px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.icon-nav {
+    color: aliceblue;
+    display: none;
+}
+
+.nav-btn {
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+    background: linear-gradient(30deg, rgb(247, 251, 19), rgb(208, 4, 160), rgb(4, 31, 187));
+}
+
+.line-nav {
+    background-color: #383636;
+    border: none;
+    height: 1px;
+
+}
+
+/* main section code start */
+.back-first-img {
+    background-image: url(./image/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.cir-bac-img{
+    position: absolute;
+    z-index: 1;
+    top: 85%;
+}
+
+.micro-img{
+    position: absolute;
+    position: relative;
+    z-index: 2;
+    top: 175%;
+}
+
+
+.new {
+    position: absolute;
+    z-index: 3;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: rgb(8, 182, 34);
+    border-radius: 20px;
+    border: none;
+    color: rgb(248, 245, 245);
+    top: 120px;
+    left: 56%;
+}
+
+
+.cir-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+.micro-img {
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+.main-item {
+/* padding-top: 25%; */
+text-align: center;
+padding-top: 380px;
+padding-bottom: 50px;
+    
+}
+
+.main-item>h1 {
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+}
+
+.main-item-p {
+    font-size: 1rem;
+    color: #b0acac;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.main-btn {
+    padding: 12px 20px;
+    background: linear-gradient(30deg, rgb(247, 251, 19), rgb(208, 4, 160), rgb(4, 31, 187));
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.main-btn2 {
+    padding: 12px 20px;
+    background-color: #b0acac00;
+    border: 1px solid green;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.icon-main {
+    margin-right: 5px;
+}
+
+.icon-main2 {
+    margin-right: 5px;
+    color: #07db40;
+}
+
+
+
+
+
+
+
+/* Podcast section code start */
+.Podcast-item {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+    max-width: 1200px;
+}
+
+.Podcast-item-menu {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.Podcast-item-menu-ber {
+    font-size: 1rem;
+    line-height: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.card-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    padding-bottom: 80px;
+}
+
+.main-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    justify-content: center;
+    justify-content: space-around;
+    /* margin: 0 auto; */
+
+}
+
+.card-item {
+    text-align: center;
+}
+
+.card {
+    color: #07db40;
+}
+
+.card-p {
+    font-size: 1rem;
+    line-height: 20px;
+    color: #dfdddd;
+    padding-top: 1.2rem;
+    font-weight: 400;
+}
+
+/* <!-- card section code start --> */
+
+.container-card-socal-icon {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.socal-name {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.main-socal-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0 20px;
+}
+.socal-card-card{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+
+}
+.socal-padd{
+   
+}
+.cosal-first {
+    grid-row: span 2;
+}
+
+.cosal-icon2 {
+    grid-column: span 2;
+}
+
+.cosal-icon3 {
+    grid-column: span 2;
+}
+
+.cosal-icon4 {
+    grid-column: span 2;
+}
+
+.socal-card {
+    border: none;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #2A0F4D;
+}
+
+.socal-icon-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.socla-menu-name {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #dfdddd;
+}
+
+.hello {
+    padding-bottom: 160px;
+}
+
+
+.socal-img {
+    width: 40px;
+    height: 40px;
+}
+
+.socal-img {
+    width: 40px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+/* <!-- Featured Episodes  code start --> */
+.container-Featured-main {
+    padding: 80px 0;
+}
+
+.container-Featured {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border:  2px solid red; */
+}
+
+.Featured-main-name {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.Featured-card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 5px;
+}
+
+.Featured-card {
+    background-color: #250D44;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.Featured-card-item {
+    text-align: left;
+    padding: 20px 18px;
+}
+
+.Featured-card-item-menu {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.Featured-card-item-menu-p {
+    color: #b7b5b5;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.Featured-card-color {
+    color: #07db40;
+    padding-top: 5px;
+}
+
+.Featured-card-icon {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Alex-Kumar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Alex-Kumar {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 50px 0 20px 0;
+}
+
+.Alex-main-container {
+    background-color: #250D44;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px 20px;
+    border-radius: 20px;
+
+}
+
+.alex-name {
+    font-size: 2.6rem;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.Kumar-name {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    color: #cdcaca;
+    padding-bottom: 10px;
+}
+
+.alex-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.online-icon {
+    padding: 4px 4px;
+    border: 1px solid rgb(11, 134, 200);
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #c2ace01d;
+}
+
+.online {
+    background: linear-gradient(45deg, lab(57.8% 91.61 -36.7), lab(38.36% 66.02 -97.73));
+    background-clip: text;
+    color: transparent;
+}
+
+.kamrul-flex {
+    padding-bottom: 100px;
+}
+
+
+
+
+/* footer code start */
+.back-footer {
+    background-image: url(./image/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container-footer {
+    text-align: center;
+    padding: 90px 0;
+
+}
+
+.main-footer {
+    color: #FFFFFF;
+    font-size: 4.1rem;
+}
+
+.footer-icon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.footer-icon-menu {
+    color: #959393;
+}
+
+.foot-icon {
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+/* media screen phone*/
+@media screen and (max-width:576px) {
+    nav {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .icon-nav {
+        display: block;
+        font-size: 20px;
+    }
+
+    .section-width {
+        padding: 0 10px;
+    }
+
+    /* main section code start */
+
+    /* .cir-bac-img{
+    max-width: 200px;
+} */
+  
+.back-first-img { 
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.cir-bac-img{
+    top: 35%;
+    width: 60%;
+    height: 290%;
+}
+
+.micro-img{
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    width: 32%;
+    height: 180%;
+}
+
+
+
+.new {
+    color: #FFFFFF;
+    position: absolute;
+    padding: 8px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(8, 182, 34);
+    border-radius: 20px;
+    border: none;
+    color: rgb(238, 233, 233);
+    top: 130px;
+    right: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+    z-index: 3;
+    left: 63%;
+    top: 45%;
+}
+.main-item{
+    padding-top: 240px;
+    padding-bottom: 30px;
+}
+.main-item-p{
+    padding: 0 5px 10px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    .Podcast-item {
+        padding: 0 20px;
+    }
+
+    .Podcast-item-menu {
+        font-size: 2rem;
+    }
+
+
+    .main-card {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+
+    }
+
+    .card-container {
+        margin: 0 auto;
+    }
+
+    .card-item {
+        padding-top: 40px;
+    }
+
+    .main-card {
+        gap: 10px;
+    }
+
+
+
+
+    .main-socal-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+
+    .cosal-first,
+    .cosal-icon2,
+    .cosal-icon3,
+    .cosal-icon4 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .hello {
+        padding-bottom: 20px;
+    }
+
+  .socal-name {
+        font-size: 2rem;
+        padding-top: 50px;
+    }
+    
+    .container-card-socal-icon{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Featured-card-container {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .container-Featured {
+        max-width: 90%;
+    }
+
+    .Featured-card iframe {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Alex-main-container {
+        margin: 0 auto;
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+
+    .alex-icon {
+        justify-content: center;
+    }
+
+    .kamrul-flex {
+        padding-bottom: 50px;
+    }
+
+
+    /* footer section code start */
+
+    .footer-icon {
+
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* media screen tad */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .icon-nav {
+        display: block;
+        font-size: 20px;
+    }
+
+    .section-width {
+        padding: 0 20px;
+    }
+
+
+
+
+.new {
+    color: #FFFFFF;
+    position: absolute;
+    padding: 8px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(8, 182, 34);
+    border-radius: 20px;
+    border: none;
+    color: rgb(238, 233, 233);
+    top: 130px;
+    right: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+    z-index: 3;
+    left: 60%;
+    top: 110%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Podcast-item-menu-ber {
+        padding: 0 20px;
+    }
+
+
+
+
+
+
+
+    .main-socal-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+
+    .cosal-first,
+    .cosal-icon2,
+    .cosal-icon3,
+    .cosal-icon4 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .hello {
+        padding-bottom: 20px;
+    }
+
+  .socal-name {
+        font-size: 2rem;
+        padding-top: 60px;
+    }
+    
+    .container-card-socal-icon{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Featured-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .Featured-card{
+        width: 100%;
+    } */
+
+    .container-Featured {
+        max-width: 60%;
+    }
+
+    .Featured-card iframe {
+        width: 100%;
+    }
+
+
+
+    .Alex-main-container {
+        margin: 0 auto;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+
+    .alex-icon {
+        justify-content: center;
+    }
+
+
+}
