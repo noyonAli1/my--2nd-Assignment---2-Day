@@ -18,13 +18,11 @@
 
 .main-container {
     background-color: #1A0B2E;
-    /* border: 1px solid red; */
 }
 
 .section-width {
     max-width: 1200px;
     margin: 0 auto;
-    /* border: 1px solid greenyellow; */
 }
 
 .nav-container {
@@ -45,6 +43,12 @@
     background-clip: text;
 }
 
+.nav-wave:hover {
+    background: linear-gradient(to bottom, #df075d, #01ccff, rgba(255, 2, 44, 0.627));
+    color: transparent;
+    background-clip: text;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -57,6 +61,12 @@ nav>ul>li>a {
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
+    transition: 0.5s;
+}
+
+nav>ul>li>a:hover {
+    color: #07db40;
+    transition: 0.5s;
 }
 
 .icon-nav {
@@ -72,16 +82,24 @@ nav>ul>li>a {
     border: none;
     color: #FFFFFF;
     background: linear-gradient(30deg, rgb(247, 251, 19), rgb(208, 4, 160), rgb(4, 31, 187));
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-btn:hover {
+    background: linear-gradient(30deg, rgb(5, 201, 236), rgb(255, 0, 195), rgb(0, 255, 128));
+    transition: 0.5s;
 }
 
 .line-nav {
     background-color: #383636;
     border: none;
     height: 1px;
-
 }
 
-/* main section code start */
+
+
+/* background section code start */
 .back-first-img {
     background-image: url(./image/hero-bg.png);
     background-position: center;
@@ -91,19 +109,19 @@ nav>ul>li>a {
     width: 100%;
     position: relative;
 }
-.cir-bac-img{
+
+.cir-bac-img {
     position: absolute;
     z-index: 1;
     top: 85%;
 }
 
-.micro-img{
+.micro-img {
     position: absolute;
     position: relative;
     z-index: 2;
     top: 175%;
 }
-
 
 .new {
     position: absolute;
@@ -120,7 +138,6 @@ nav>ul>li>a {
     left: 56%;
 }
 
-
 .cir-img {
     display: flex;
     justify-content: center;
@@ -133,20 +150,12 @@ nav>ul>li>a {
     position: absolute;
 }
 
-
-
-
-
-
-
-
-
 .main-item {
-/* padding-top: 25%; */
-text-align: center;
-padding-top: 380px;
-padding-bottom: 50px;
-    
+    /* padding-top: 25%; */
+    text-align: center;
+    padding-top: 380px;
+    padding-bottom: 50px;
+
 }
 
 .main-item>h1 {
@@ -191,12 +200,7 @@ padding-bottom: 50px;
 }
 
 
-
-
-
-
-
-/* Podcast section code start */
+/* main About the Podcast section cose start */
 .Podcast-item {
     margin: 0 auto;
     text-align: center;
@@ -220,8 +224,7 @@ padding-bottom: 50px;
 }
 
 
-
-
+/* card section code start  */
 
 .card-container {
     max-width: 1200px;
@@ -278,16 +281,15 @@ padding-bottom: 50px;
     grid-template-rows: repeat(3, 1fr);
     gap: 0 20px;
 }
-.socal-card-card{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     width: 100%;
+
+.socal-card-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
 
 }
-.socal-padd{
-   
-}
+
 .cosal-first {
     grid-row: span 2;
 }
@@ -536,71 +538,74 @@ iframe {
         padding: 0 10px;
     }
 
-    /* main section code start */
 
-    /* .cir-bac-img{
-    max-width: 200px;
-} */
-  
-.back-first-img { 
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-.cir-bac-img{
-    top: 35%;
-    width: 60%;
-    height: 290%;
-}
+    /* background section code start */
+    .back-first-img {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
 
-.micro-img{
-    position: absolute;
-    z-index: 2;
-    top: 80%;
-    width: 32%;
-    height: 180%;
-}
+    .cir-bac-img {
+        top: 35%;
+        width: 70%;
+        height: 280%;
+    }
 
+    .micro-img {
+        position: absolute;
+        z-index: 2;
+        top: 80%;
+        width: 32%;
+        height: 180%;
+    }
 
+    .new {
+        color: #FFFFFF;
+        position: absolute;
+        padding: 8px 40px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: rgb(8, 182, 34);
+        border-radius: 20px;
+        border: none;
+        color: rgb(238, 233, 233);
+        top: 130px;
+        right: 580px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 3;
+        left: 63%;
+        top: 45%;
+    }
 
-.new {
-    color: #FFFFFF;
-    position: absolute;
-    padding: 8px 40px;
-    font-size: 1rem;
-    font-weight: 600;
-    background-color: rgb(8, 182, 34);
-    border-radius: 20px;
-    border: none;
-    color: rgb(238, 233, 233);
-    top: 130px;
-    right: 580px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     position: absolute;
-    z-index: 3;
-    left: 63%;
-    top: 45%;
-}
-.main-item{
-    padding-top: 240px;
-    padding-bottom: 30px;
-}
-.main-item-p{
-    padding: 0 5px 10px 5px;
-}
+    .main-item {
+        padding-top: 240px;
+        padding-bottom: 30px;
+    }
 
+    .main-item-p {
+        padding: 0 5px 10px 5px;
+        margin-bottom: 10px;
+    }
 
+    .main-item>h1 {
+        font-size: 3rem;
+    }
 
+    .main-btn {
+        padding: 8px 12px;
+        margin-right: 10px;
+    }
 
+    .main-btn2 {
+        padding: 8px 12px;
 
+    }
 
-
-
-
-
-
+    /* main About the Podcast section cose start */
 
     .Podcast-item {
         padding: 0 20px;
@@ -608,7 +613,32 @@ iframe {
 
     .Podcast-item-menu {
         font-size: 2rem;
+        margin-bottom: 20px;
     }
+
+    .Podcast-item {
+        text-align: center;
+        padding: 50px 0px;
+        max-width: 1200px;
+    }
+    .Podcast-item-menu-ber {
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+    .Podcast-item-menu-ber{
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
 
 
     .main-card {
@@ -651,12 +681,12 @@ iframe {
         padding-bottom: 20px;
     }
 
-  .socal-name {
+    .socal-name {
         font-size: 2rem;
         padding-top: 50px;
     }
-    
-    .container-card-socal-icon{
+
+    .container-card-socal-icon {
         max-width: 90%;
         margin: 0 auto;
     }
@@ -748,26 +778,26 @@ iframe {
 
 
 
-.new {
-    color: #FFFFFF;
-    position: absolute;
-    padding: 8px 40px;
-    font-size: 1rem;
-    font-weight: 600;
-    background-color: rgb(8, 182, 34);
-    border-radius: 20px;
-    border: none;
-    color: rgb(238, 233, 233);
-    top: 130px;
-    right: 580px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     position: absolute;
-    z-index: 3;
-    left: 60%;
-    top: 110%;
-}
+    .new {
+        color: #FFFFFF;
+        position: absolute;
+        padding: 8px 40px;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: rgb(8, 182, 34);
+        border-radius: 20px;
+        border: none;
+        color: rgb(238, 233, 233);
+        top: 130px;
+        right: 580px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 3;
+        left: 60%;
+        top: 110%;
+    }
 
 
 
@@ -817,12 +847,12 @@ iframe {
         padding-bottom: 20px;
     }
 
-  .socal-name {
+    .socal-name {
         font-size: 2rem;
         padding-top: 60px;
     }
-    
-    .container-card-socal-icon{
+
+    .container-card-socal-icon {
         max-width: 80%;
         margin: 0 auto;
     }
