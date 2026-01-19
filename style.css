@@ -259,10 +259,13 @@ nav>ul>li>a:hover {
 }
 
 /* <!-- card section code start 333333--> */
-
+.main-container-back-ground {
+    background-color: #230E3D;
+}
 .container-card-socal-icon {
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .socal-name {
@@ -285,14 +288,15 @@ nav>ul>li>a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-
+   
 }
 
 .cosal-first {
     grid-row: span 2;
 }
-
+.hello {
+    padding-bottom: 160px;
+}
 .cosal-icon2 {
     grid-column: span 2;
 }
@@ -325,11 +329,6 @@ nav>ul>li>a:hover {
     color: #dfdddd;
 }
 
-.hello {
-    padding-bottom: 160px;
-}
-
-
 .socal-img {
     width: 40px;
     height: 40px;
@@ -339,12 +338,6 @@ nav>ul>li>a:hover {
     width: 40px;
     height: 50px;
 }
-
-
-
-
-
-
 
 /* <!-- Featured Episodes  code start --> */
 .container-Featured-main {
@@ -660,30 +653,6 @@ iframe {
         font-size: 14px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* <!-- card section code start 333333--> */
 
     .main-socal-container {
@@ -691,7 +660,10 @@ iframe {
         grid-template-rows: auto;
         gap: 20px;
     }
-
+.socal-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
     .cosal-first,
     .cosal-icon2,
@@ -705,29 +677,12 @@ iframe {
         padding-bottom: 20px;
     }
 
-    .socal-name {
-        font-size: 2rem;
-        padding-top: 50px;
-    }
-
     .container-card-socal-icon {
         max-width: 90%;
         margin: 0 auto;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ /* <!-- Featured Episodes  code start --> */
 
     .Featured-card-container {
         flex-direction: column;
@@ -742,7 +697,10 @@ iframe {
         width: 100%;
     }
 
-
+.Featured-main-name{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
 
 
 
